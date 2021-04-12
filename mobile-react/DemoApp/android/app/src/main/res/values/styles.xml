@@ -1,0 +1,236 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+		<item name="colorPrimary">#97be0d</item>
+		<item name="colorPrimaryDark">#79980a</item>
+		<item name="colorControlNormal">#ffffff</item>
+		<item name="colorOnSurface">#000000</item>
+		<item name="editTextColor">#FFFFFF</item>
+		<item name="android:editTextColor">#FFFFFF</item>
+    </style>
+
+	<!-- UNCOMMENT BELOW TO BREAK BUILD -->
+
+<!--	<style name="CustomNetverifyTheme" parent="Theme.Netverify">-->
+
+<!--		  &lt;!&ndash; global colors &ndash;&gt;-->
+
+<!--		  <item name="colorPrimary">#132ac0</item>-->
+<!--		  <item name="colorPrimaryDark">#0f229a</item>-->
+<!--		  <item name="colorControlNormal">#ffffff</item>-->
+<!--		  <item name="colorOnSurface">#000000</item>-->
+<!--		  <item name="jumio_toolbarStyle">@style/Jumio.Actionbar.Title</item>-->
+<!--		  <item name="jumio_toolbarSubStyle">@style/Jumio.Actionbar.Subtitle</item>-->
+<!--		  <item name="jumio_dialogNegativeButtonTextColor">#BDBDBD</item>-->
+<!--		  <item name="jumio_dialogPositiveButtonTextColor">#132ac0</item>-->
+<!--		  <item name="jumio_shutterbutton_pressed">#132ac0</item>-->
+<!--		  <item name="jumio_shutterbutton_default">#000000</item>-->
+<!--		  <item name="jumio_shutterbutton_background">#ffffff</item>-->
+<!--		  <item name="android:windowBackground">@color/CustomAndroidBackground</item>-->
+<!--		  <item name="editTextColor">#87fffb</item>-->
+<!--		  <item name="android:editTextColor">#87fffb</item>-->
+
+<!--		  &lt;!&ndash; loading sdk specific colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_scanOptionsLoadingProgress">#FFFFFF</item>-->
+<!--		  &lt;!&ndash; Replace the HEX color value above to change the loading progress color (SDK start)&ndash;&gt;-->
+
+<!--		  &lt;!&ndash; select document specific colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_scanOptionsLoadingBackground">#132ac0</item>-->
+<!--		  <item name="netverify_scanOptionsItemBackground">#FFFFFF</item>-->
+<!--		  <item name="netverify_scanOptionsItemForeground">#000000</item>-->
+<!--		  <item name="netverify_scanOptionsItemHeaderBackground">#F2F2F2</item>-->
+
+<!--		  &lt;!&ndash; country selection specific colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_countryListCountryName">#000000</item>-->
+<!--		  <item name="netverify_countryListSeperator">#DDDDDD</item>-->
+
+<!--		  &lt;!&ndash; scan instructions colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_helpBackground">#B3000000</item>&lt;!&ndash;70%&ndash;&gt;-->
+<!--		  <item name="netverify_helpTitle">#FFFFFF</item>-->
+<!--		  <item name="netverify_helpImage">#FFFFFF</item>-->
+<!--		  <item name="netverify_helpSeperator">#33FFFFFF</item>-->
+<!--		  <item name="netverify_helpInstructions">#FFFFFF</item>-->
+<!--		  <item name="netverify_helpFallback">#FFFFFF</item>-->
+<!--		  <item name="netverify_helpFallbackText">#222222</item>-->
+
+<!--		  &lt;!&ndash; scan instructions NFC Passport specific colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_nfc_passport_cover">@color/jumio_white</item>-->
+<!--		  <item name="netverify_nfc_passport_foreground">@color/jumio_black</item>-->
+<!--		  <item name="netverify_nfc_passport_page_dark">@color/jumio_grey450</item>-->
+<!--		  <item name="netverify_nfc_passport_page_light">@color/jumio_grey300</item>-->
+<!--		  <item name="netverify_nfc_phone_background">@color/jumio_grey200</item>-->
+
+<!--		  &lt;!&ndash; scan document (scan screen) specific colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_scanOverlay">#B3FFFFFF</item>-->
+<!--		  <item name="netverify_scanOverlayFill">#66FFFFFF</item>-->
+<!--		  <item name="netverify_scanBackground">#40000000</item>&lt;!&ndash;25%&ndash;&gt;-->
+
+<!--		  &lt;!&ndash; Authentication specific colors &ndash;&gt;-->
+
+<!--		  <item name="zoom_customization">@style/CustomZoom</item>-->
+<!--		  <item name="zoom_customization_lowlight">@style/CustomZoomLowLight</item>-->
+
+<!--		  &lt;!&ndash; iProov specific colors &ndash;&gt;-->
+
+<!--		  <item name="iproov_customization">@style/CustomIproov</item>-->
+
+<!--		  &lt;!&ndash; verification specific colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_confirmationBackground">#000000</item>-->
+<!--		  <item name="netverify_confirmationHintStyle">@style/Custom.Netverify.Confirmation.Hint</item>-->
+<!--		  <item name="materialButtonStyle">@style/Custom.Netverify.Confirmation.MaterialButton</item>-->
+<!--		  <item name="materialButtonOutlinedStyle">@style/Custom.Netverify.Confirmation.MaterialButton.Outlined</item>-->
+<!--		  <item name="netverify_confirmationIcon">#FFFFFF</item>-->
+
+<!--		  &lt;!&ndash; submission error (error screen) specific colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_submissionErrorStatusBar">#B3B3B3</item>-->
+<!--		  <item name="netverify_submissionErrorBackground">#E0E0E0</item>-->
+<!--		  <item name="netverify_submissionErrorTitle">#424242</item>-->
+<!--		  <item name="netverify_submissionErrorDescription">#757575</item>-->
+<!--		  <item name="netverify_submissionErrorSeperator">#757575</item>-->
+<!--		  <item name="netverify_submissionErrorImage">#FFFFFF</item>-->
+<!--		  <item name="netverify_submissionErrorButtonBackground">#FFFFFF</item>-->
+<!--		  <item name="netverify_submissionErrorButtonText">#222222</item>-->
+
+<!--		  &lt;!&ndash; submission success (success screen) specific colors &ndash;&gt;-->
+
+<!--		  <item name="netverify_submissionProgressSuccessTitle">#FFFFFF</item>-->
+<!--		  <item name="netverify_submissionProgressSuccessDescription">#FFFFFF</item>-->
+<!--		  <item name="netverify_submissionProgressSuccessSeperator">#FFFFFF</item>-->
+<!--		  <item name="netverify_submissionProgressSuccessImage">#FFFFFF</item>-->
+<!--		  <item name="netverify_submissionProgressSuccessBackground">#132ac0</item>-->
+<!--		 </style>-->
+
+<!--	 &lt;!&ndash; actionbar title color &ndash;&gt;-->
+
+<!--	 <style name="Jumio.Actionbar.Title" parent="Base.ThemeOverlay.Jumio">-->
+<!--	  <item name="android:textColorPrimary">#ffffff</item>-->
+<!--	 </style>-->
+<!--	 <style name="Jumio.Actionbar.Subtitle" parent="@android:style/TextAppearance">-->
+<!--	  <item name="android:textColor">#ffffff</item>-->
+<!--	 </style>-->
+
+<!--	 &lt;!&ndash; positive button theme (verification screen) &ndash;&gt;-->
+
+<!--	 <style name="Custom.Netverify.Confirmation.MaterialButton" parent="Netverify.Confirmation.MaterialButton">-->
+<!--	  <item name="android:textColor">#FFFFFF</item>-->
+<!--	  <item name="backgroundTint">#92C039</item>-->
+<!--	 </style>-->
+
+<!--	 &lt;!&ndash; negative button theme (verification screen) &ndash;&gt;-->
+
+<!--	 <style name="Custom.Netverify.Confirmation.MaterialButton.Outlined" parent="Netverify.Confirmation.MaterialButton.Outlined">-->
+<!--	  <item name="android:textColor">#92C039</item>-->
+<!--	  <item name="strokeColor">#92C039</item>-->
+<!--	  <item name="backgroundTint">@android:color/transparent</item>-->
+<!--	 </style>-->
+
+
+<!--	 &lt;!&ndash; Verification info theme (verification screen) &ndash;&gt;-->
+
+<!--	 <style name="Custom.Netverify.Confirmation.Hint" parent="Netverify.Confirmation.Hint">-->
+<!--	  <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Dark</item>-->
+<!--	  <item name="android:background">#000000</item>-->
+<!--	  <item name="android:textColor">#FFFFFF</item>-->
+<!--	 </style>-->
+
+
+<!--	 &lt;!&ndash; authentication theme &ndash;&gt;-->
+
+<!--	 <style name="CustomZoom" parent="Zoom.Customization">-->
+<!--	  <item name="zoom_frameBackground">#FF000000</item>&lt;!&ndash;100%&ndash;&gt;-->
+<!--	  <item name="zoom_overlayBackground">#000000</item>-->
+
+<!--	  <item name="zoom_scanOverlayFeedbackText">#FFFFFF</item>-->
+<!--	  <item name="zoom_scanOverlayFeedbackBackground">#92C039</item>-->
+<!--	  <item name="zoom_scanOverlayOval">#FFFFFF</item>-->
+<!--	  <item name="zoom_scanOverlayProgress">#92C039</item>-->
+
+<!--	  <item name="zoom_resultBackground">#000000</item>-->
+<!--	  <item name="zoom_resultForeground">#92C039</item>-->
+<!--	  <item name="zoom_resultActivityIndicator">#92C039</item>-->
+<!--	  <item name="zoom_resultAnimationBackground">#FFFFFF</item>-->
+<!--	  <item name="zoom_resultAnimationForeground">#92C039</item>-->
+<!--	  <item name="zoom_uploadProgressTrack">#92C039</item>-->
+<!--	  <item name="zoom_uploadProgressFill">#FFFFFF</item>-->
+
+<!--	  <item name="zoom_guidanceBackground">#000000</item>-->
+<!--	  <item name="zoom_guidanceForeground">#FFFFFF</item>-->
+
+<!--	  <item name="zoom_guidanceButtonTextNormal">#FFFFFF</item>-->
+<!--	  <item name="zoom_guidanceButtonTextHighlight">#FFFFFF</item>-->
+<!--	  <item name="zoom_guidanceButtonTextDisabled">#FFFFFF</item>-->
+
+<!--	  <item name="zoom_guidanceButtonBackgroundNormal">#92C039</item>-->
+<!--	  <item name="zoom_guidanceButtonBackgroundHighlight">#92C039</item>-->
+<!--	  <item name="zoom_guidanceButtonBackgroundDisabled">#92C039</item>-->
+
+<!--	  <item name="zoom_guidanceButtonBorder">@android:color/transparent</item>-->
+<!--	  <item name="zoom_guidanceReadyScreenOvalFill">@android:color/transparent</item>-->
+<!--	  <item name="zoom_guidanceRetryScreenOvalStroke">#FFFFFF</item>-->
+<!--	  <item name="zoom_guidanceReadyScreenTextBackground">#000000</item>-->
+<!--	  <item name="zoom_guidanceRetryScreenImageBorder">#92C039</item>-->
+<!--	  <item name="zoom_close_button_resource">@drawable/zoom_close_white</item>-->
+<!--	 </style>-->
+
+
+<!--	 &lt;!&ndash; authentication theme - lowlight&ndash;&gt;-->
+
+<!--	 <style name="CustomZoomLowLight" parent="Zoom.Customization.Lowlight">-->
+<!--	  <item name="zoom_frameBackground">#FFFFFFFF</item>&lt;!&ndash;100%&ndash;&gt;-->
+<!--	  <item name="zoom_overlayBackground">#FFFFFF</item>-->
+
+<!--	  <item name="zoom_scanOverlayFeedbackText">#000000</item>-->
+<!--	  <item name="zoom_scanOverlayFeedbackBackground">#92C039</item>-->
+<!--	  <item name="zoom_scanOverlayOval">#000000</item>-->
+<!--	  <item name="zoom_scanOverlayProgress">#92C039</item>-->
+
+<!--	  <item name="zoom_resultBackground">#FFFFFF</item>-->
+<!--	  <item name="zoom_resultForeground">#92C039</item>-->
+<!--	  <item name="zoom_resultActivityIndicator">#92C039</item>-->
+<!--	  <item name="zoom_resultAnimationBackground">#000000</item>-->
+<!--	  <item name="zoom_resultAnimationForeground">#92C039</item>-->
+<!--	  <item name="zoom_uploadProgressTrack">#92C039</item>-->
+<!--	  <item name="zoom_uploadProgressFill">#000000</item>-->
+
+<!--	  <item name="zoom_guidanceBackground">#FFFFFF</item>-->
+<!--	  <item name="zoom_guidanceForeground">#000000</item>-->
+
+<!--	  <item name="zoom_guidanceButtonTextNormal">#000000</item>-->
+<!--	  <item name="zoom_guidanceButtonTextHighlight">#000000</item>-->
+<!--	  <item name="zoom_guidanceButtonTextDisabled">#000000</item>-->
+
+<!--	  <item name="zoom_guidanceButtonBackgroundNormal">#92C039</item>-->
+<!--	  <item name="zoom_guidanceButtonBackgroundHighlight">#92C039</item>-->
+<!--	  <item name="zoom_guidanceButtonBackgroundDisabled">#92C039</item>-->
+
+<!--	  <item name="zoom_guidanceButtonBorder">@android:color/transparent</item>-->
+<!--	  <item name="zoom_guidanceReadyScreenOvalFill">@android:color/transparent</item>-->
+<!--	  <item name="zoom_guidanceRetryScreenOvalStroke">#000000</item>-->
+<!--	  <item name="zoom_guidanceReadyScreenTextBackground">#ffffff</item>-->
+<!--	  <item name="zoom_guidanceRetryScreenImageBorder">#92C039</item>-->
+<!--	  <item name="zoom_close_button_resource">@drawable/zoom_close_white</item>-->
+<!--	 </style>-->
+
+
+<!--	 &lt;!&ndash; iproov theme &ndash;&gt;-->
+
+<!--	 <style name="CustomIproov" parent="Iproov.Customization">-->
+<!--	  <item name="iproov_helpBackground">#000000</item>-->
+<!--	  <item name="iproov_helpImage">#FFFFFF</item>-->
+<!--	  <item name="iproov_helpText">#FFFFFF</item>-->
+<!--	  <item name="iproov_livenessTintColor">#92C039</item>-->
+<!--	  <item name="iproov_lineColor">#000000</item>-->
+<!--	  <item name="iproov_notReadyTintColor">#42e242</item>-->
+<!--	  <item name="iproov_readyTintColor">#CffCCC</item>-->
+<!--	 </style>-->
+</resources>
